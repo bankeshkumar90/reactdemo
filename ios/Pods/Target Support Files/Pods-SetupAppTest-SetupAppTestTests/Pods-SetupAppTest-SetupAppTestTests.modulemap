@@ -1,0 +1,6 @@
+module Pods_SetupAppTest_SetupAppTestTests {
+  umbrella header "Pods-SetupAppTest-SetupAppTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
