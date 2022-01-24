@@ -16,7 +16,7 @@ const App = () =>{
       <Text style = {styles.text}>
         This is some Text
         </Text>
-        <Button title='Click' onPress = {()=> {Linking.openURL('https://www.google.com')}}>
+        <Button  title='Click' onPress = {()=> {Linking.openURL('https://www.google.com')}}>
         </Button>
       </View>
   );
@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
     backgroundColor:'#0000ff',
    },
    text:{
-      color:'#ffffff',
-      fontSize:30,
+      color:'#000000',
+      fontSize:40,
       fontStyle:'italic'
    }
 });
